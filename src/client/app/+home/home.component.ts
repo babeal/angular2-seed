@@ -18,7 +18,7 @@ export class HomeComponent {
    * @returns return false to prevent default form submit behavior to refresh the page.
    */
   addName(): boolean {
-    this.nameListService.add(this.newName);
+    this.nameListService.add(this.newName + "hello");
     this.newName = '';
     return false;
   }

@@ -1,3 +1,3 @@
-export * from './name-list/index';
-export * from './navbar/index';
-export * from './toolbar/index';
+export * from './components/name-list/index';
+export * from './components/navbar/index';
+export * from './components/toolbar/index';
